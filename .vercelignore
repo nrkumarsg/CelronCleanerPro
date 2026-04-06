@@ -1,0 +1,21 @@
+# Ignore Electron build artifacts
+dist-electron/
+dist-release/
+dist/
+release/
+build/
+out/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Git
+.git/
+.gitignore
+
+# Ignore Vercel internal folder
+.vercel/
