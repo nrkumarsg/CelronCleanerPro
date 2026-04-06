@@ -47,7 +47,7 @@ const FEATURES = [
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
-  const DOWNLOAD_URL = "https://github.com/nrkumarsg/CelronCleanerPro/raw/master/dist-release/Celron%20Cleaner%201.0.0.exe";
+  const DOWNLOAD_URL = "https://drive.google.com/file/d/17vYj-b1tTQqBGQ-PIno_uBJcDamv-RWh/view?usp=sharing";
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
